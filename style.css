@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Strava Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Strava Dashboard</h1>
+
+<div class="dashboard">
+
+  <div class="card">
+    <h3>Total Activities</h3>
+    <p id="totalActivities">--</p>
+  </div>
+
+  <div class="card">
+    <h3>Total Distance</h3>
+    <p id="totalDistance">--</p>
+  </div>
+
+  <div class="card">
+    <h3>Total Moving Time</h3>
+    <p id="totalTime">--</p>
+  </div>
+
+  <div class="card">
+    <h3>Runs</h3>
+    <p id="runCount">--</p>
+  </div>
+
+  <div class="card">
+    <h3>Rides</h3>
+    <p id="rideCount">--</p>
+  </div>
+
+  <div class="card">
+    <h3>Last Activity</h3>
+    <p id="lastActivity">--</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
